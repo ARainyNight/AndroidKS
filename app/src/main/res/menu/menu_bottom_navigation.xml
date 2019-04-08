@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/item_takeoutfood"
+        android:icon="@drawable/takeoutfood"
+        android:title="外卖"/>
+
+    <item
+        android:id="@+id/item_order"
+        android:icon="@drawable/order"
+        android:title="订单"/>
+
+    <item
+        android:id="@+id/item_my"
+        android:icon="@drawable/my"
+        android:title="我的"/>
+
+
+</menu>

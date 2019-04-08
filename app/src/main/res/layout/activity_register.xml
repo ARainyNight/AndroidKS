@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".ui.activity.RegisterActivity">
+
+
+    <EditText
+        android:id="@+id/registerActivity_username_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/registerActivity_username_et"
+        android:maxLines="1"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/registerActivity_password_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/registerActivity_password_et"
+        android:maxLines="1"
+        android:password="true"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/registerActivity_password_again_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/registerActivity_password_again_et"
+        android:maxLines="1"
+        android:password="true"
+        android:textSize="20sp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:textSize="20sp"
+        android:hint="手机号码"
+        android:id="@+id/registerActivity_PhoneNumber"/>
+
+
+
+    <Button
+        android:id="@+id/registerActivity_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_bg"
+        android:text="@string/registerActivity_btn"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+</LinearLayout>

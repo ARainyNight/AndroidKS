@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.activity.MyInfoActivity">
+
+
+    <include layout="@layout/toolbar_layout" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp">
+
+
+        <EditText
+            android:id="@+id/myInfoActivity_phone_number_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="手机号"
+            android:textSize="16sp" />
+
+       <Button
+           android:id="@+id/myInfoActivity_update_btn"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="修改信息"/>
+
+        <Button
+            android:id="@+id/myInfoActivity_sava_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="保存信息"/>
+    </LinearLayout>
+</LinearLayout>
